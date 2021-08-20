@@ -52,6 +52,7 @@ $modalAlert:"Roboto";
 	display: flex;
 	justify-content:space-between;
 	align-items: center;
+	
 }
 
 .navbar-menu {
@@ -59,6 +60,8 @@ $modalAlert:"Roboto";
 	padding: 0;
 	list-style: none;
 	display: flex;
+	justify-content:space-between;
+	align-items:center;
 	text-align: center;
 }
 .navbar-item {
