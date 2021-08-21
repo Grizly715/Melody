@@ -33,6 +33,9 @@ $flatLinkColor:#635854;
 $flatLinkColorHover:#3596F5;
 $modalAlertColor:#635854;
 $modalCloseButtonBackgroundColor:#fff;
+$footerBackgroundColor:#D7D7D7;
+$footerTextPhoneColor:#635854;
+$footerLinkColor:#635854;
 
 // Шрифты переменные
 $mainTitle: "Bebas Neue",sans-serif;
@@ -258,4 +261,61 @@ path.current-floor {
 	cursor: pointer;
 	border:none;
 	background-color: $modalCloseButtonBackgroundColor;
+}
+
+.footer {
+	text-align: center;
+	background-color: $footerBackgroundColor;
+	margin-top: 100px;
+	
+}
+.footer-info {
+	max-width: 1280px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+}
+
+.footer-logo{
+	margin: 0;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.footer-contacts {
+	text-align: right;
+	padding-left: 37px;
+	padding-right: 70px;
+}
+.footer-text {
+	display:block;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	color: $footerTextPhoneColor;
+	
+}
+.footer-phone {
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 20px;
+	color: $footerTextPhoneColor;
+	text-decoration: none;
+}
+.footer-social {
+
+	img{
+		padding-right: 15px;
+	}
+}
+.footer-links{
+	flex-grow: 1;
+	text-align: right;
+}
+.footer-link {
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 19px;
+	text-decoration-line: underline;
+	color: $footerLinkColor;
+	padding-left: 20px;
 }
