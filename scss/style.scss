@@ -70,7 +70,7 @@ $modalAlert:"Roboto";
 	margin-left: 25px;
 	margin-right: 25px;
 	padding: 12px 15px 12px 15px;
-	
+
 	&:hover {
 		background: $navbarItemHoverColor;
 	}
@@ -307,8 +307,9 @@ path.current-floor {
 }
 .footer-social {
 
-	img{
+	a{
 		padding-right: 15px;
+		text-decoration: none;
 	}
 }
 .footer-links{
