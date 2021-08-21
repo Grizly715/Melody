@@ -45,8 +45,6 @@ $modalAlert:"Roboto";
 
 .header{
 	background-color:  $headerBackgroundColor;
-	padding-top: 12px;
-	padding-bottom: 12px;
 	border-bottom: 4px solid $headerBorderBottom;
 }
 .navbar{
@@ -68,8 +66,15 @@ $modalAlert:"Roboto";
 	text-align: center;
 }
 .navbar-item {
-	margin-left: 40px;
-	margin-right: 40px;
+	margin-left: 25px;
+	margin-right: 25px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left:15px;
+	padding-right:15px;
+	&:hover {
+		background: #3596F5;
+	}
 }
 .navbar-link {
 	text-decoration: none;
